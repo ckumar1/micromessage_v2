@@ -70,10 +70,6 @@ describe User do
     end
   end
 
-<<<<<<< HEAD
-
-=======
->>>>>>> remotes/origin/Microposts
   it { should respond_to(:password_digest) }
   it { should respond_to(:password) }
   it { should respond_to(:password_confirmation) }
